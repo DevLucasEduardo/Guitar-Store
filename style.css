@@ -99,7 +99,7 @@ body {
 .about-img {
     display: block;
     width: 460px;
-    height: 330px;  
+    height: 330px; 
 }
 
 .about-item h3 {
@@ -123,4 +123,78 @@ body {
     text-align: center;
     margin: 20px auto;
     max-width: 460px;
+}
+
+/* Products */
+
+.products {
+    background: #e7e4d8;
+    padding: 60px 0;
+    border-top: #d6d3c8 3px solid;
+    border-bottom: #d6d3c8 3px solid;
+}
+
+.products-container {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.products-container::after, .products-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+.products-item {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+.products-item h2::before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.products-les-paul::before {
+    background: url(imagens/products-lesPaul.jpeg) center center no-repeat;
+}
+
+.products-stratocaster::before {
+    background: url(imagens/products-stratocaster.jpg) center center no-repeat;
+}
+
+.products-sg::before {
+    background: url(imagens/products-sg.jpg) center center no-repeat;
+}
+
+.products-item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.products-item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+.products-btn {
+    width: 180px;
+    border: 3px solid;
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px auto 0 auto;
+
 }
