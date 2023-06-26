@@ -5,6 +5,9 @@ body {
     color: #252525;
 }
 
+* {
+    box-sizing: border-box;
+}
 /* Menu */
 
 .menu {
@@ -219,11 +222,12 @@ body {
 }
 
 .local-items img{
-    width: 460px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     display: block;
     float: left;
     margin: 0 10px;
+    border: solid #ada1a1 2px;
 }
 
 
@@ -248,4 +252,82 @@ body {
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+/* Sign and Footer */
+
+.sign {
+    padding: 30px 0;
+    background: #e7e4d8;
+}
+
+.sign-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sign-container::after, .sign-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sign-info {
+    width: 460px;
+    margin: 0 10px;
+    float: left; 
+}
+
+.sign-info h2 {
+    font-size: 2.25em;
+    margin-top: 10px;
+}
+
+.sign-info p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.sign-form {
+    width: 450px;
+    
+    float: left;
+}
+
+.sign-form label {
+    display: none;
+}
+
+.sign-form input {
+    width: 320px;
+    border: 3px solid #252525;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding: 10px;
+    float: left;
+}
+
+.sign-form button {
+    background: #252525;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    padding: 13px 0;
+    color: #fff;
+}
+
+.footer {
+    background: #d6d3c8;
+    padding: 40px 0;
+}
+
+.footer p {
+    margin: 0 10px;
+    font-size: 1.125em;
+    line-height: 1.4em;
+    text-align: center;
 }
