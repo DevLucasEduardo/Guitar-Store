@@ -8,3 +8,6 @@ Welcome to the Guitar Store! We are a premier guitar retailer with locations in 
 - **London**: 456 Abbey Road, London, UK
 - **São Paulo**: 789 Avenida Paulista, São Paulo, Brazil
 
+## Development
+
+This website was developed using "raw CSS". This means there aren't any other technologies involved besides HTML and CSS. 
