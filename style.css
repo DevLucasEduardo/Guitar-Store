@@ -198,3 +198,54 @@ body {
     margin: 20px auto 0 auto;
 
 }
+
+/* Locals */
+
+.local {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.local-items {
+    clear: both;
+    padding: 20px 0;
+}
+
+.local-items::after, .local-items::before {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.local-items img{
+    width: 460px;
+    height: 300px;
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+
+
+.local-items h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.local-items p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 500;
+    display:block;
+    margin-bottom: 40px;
+}
+
+.local-items a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid;
+    color: #252525;
+    padding: 10px 20px;
+}
